@@ -4,11 +4,11 @@
   height: 100vh;
 
   .home {
-      background: gold;
-      background-image: url(../asset/background/Coming_Soon_800x1075.jpg);
-      background-size: cover;
-      width: 100%;
-      aspect-ratio: 800 / 1075;
+    background: black;
+    background-image: url(../asset/background/Coming_Soon_800x1075.jpg);
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 800 / 1075;
   }
 
   .footer {
@@ -48,7 +48,7 @@
 
   @media (min-width: 658px) {
     .home {
-      background: gold;
+      background: black;
       background-image: url(../asset/background/Coming_Soon_1080x1465.jpg);
       background-size: cover;
       background-position: center;
