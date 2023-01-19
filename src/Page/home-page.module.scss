@@ -1,0 +1,81 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  .home {
+      background: gold;
+      background-image: url(../asset/background/Coming_Soon_800x1075.jpg);
+      background-size: cover;
+      width: 100%;
+      aspect-ratio: 800 / 1075;
+  }
+
+  .footer {
+    width: 100%;
+    flex: 1 1 auto;
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      
+
+    .imageContainer {
+      display: flex;
+      height: 30px;
+      width: 30px;
+
+      .image {
+        margin-top: auto;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+        background-color: black;
+      }
+    }
+    }
+  }
+
+  @media (min-width: 658px) {
+    .home {
+      background: gold;
+      background-image: url(../asset/background/Coming_Soon_1080x1465.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      aspect-ratio: 1080 / 1465;
+    }
+  }
+
+  @media (min-width: 710px) {
+    .home {
+      background: black;
+      background-image: url(../asset/background/Coming_Soon_1080x823.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      aspect-ratio: 1080 / 823;
+    }
+  }
+
+  @media (min-width: 1160px) {
+    .home {
+      background: black;
+      background-image: url(../asset/background/Coming_Soon_1280x672.jpg);
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      aspect-ratio: 1280 / 672;
+    }
+  }
+}
